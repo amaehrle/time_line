@@ -1,0 +1,12 @@
+create github
+create .ruby-version
+create Gemfile (only rails in it)
+
+$ bundle install
+$ rails new time_line -T -B -f
+
+$ clean up Gemfile
+move everything from time_line folder into root folder
+
+$ bundle install
+$ rails server
